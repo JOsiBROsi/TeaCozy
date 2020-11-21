@@ -1,0 +1,160 @@
+html {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 22px;
+    color: seashell;
+    opacity: 0.9;
+}
+header {
+    padding: 0 10px;
+    height: 3.14rem;
+    width: 100%;
+    border-bottom: 1px solid seashell;
+    position: fixed;
+    
+    z-index: 10;
+    padding: 0 0.45rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+
+}
+header img {
+    height: 50px;
+}
+nav ul {
+    list-style-type: none;
+    display: flex;
+    width: 18.2rem;
+    justify-content: space-between;
+    margin-right: 2rem;
+}
+nav a {
+    color: inherit;
+}
+
+/* Main section*/
+main {
+    background-color:black;
+    transform: translateY(3.14rem);
+    
+}
+
+/*Mission section*/
+.mission {
+    height: 31.82rem;
+    width: 54.55rem;
+    background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+.content {
+    display: flex; 
+    justify-content: space-around;
+    flex-direction: column;
+    height: 5rem;
+}
+h2 {
+    text-align: center;
+    font-size: xx-large;
+    font-weight: bold;
+}
+.content h4 {
+    text-align: center;
+    font-size: x-large;
+    font-weight: bold;
+}
+.mission .content {
+    width: 100%;
+    background-color: black;
+}
+
+/*Featured tea styling*/
+.featured-tea {
+    width: 45.45rem;
+    margin: 0 auto;
+    padding-top: 2rem;
+}
+.cards {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 1rem;
+}
+.card {
+    padding-right: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+.card img {
+    width: 13.64rem;
+    height: 9.1rem;
+    margin-bottom: 10px;
+}
+.card h4 {
+    text-align: center;
+}
+
+/* Location styling*/
+.location {
+    background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg");
+    width: 54.55rem;
+    height: 22.73rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    padding-top: 3.8rem;
+    
+    
+}
+
+.location-box-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.location h2 {
+    margin-bottom: 0.68rem;
+}
+.location-box h3 {
+    font-size: larger;
+    font-weight: 600;
+}
+.location-box {
+    height: 13.64rem;
+    width: 13.64rem;
+    background-color: black;
+    opacity: 1;
+    margin-right: 1.82rem;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.contact {
+    display: flex;
+    flex-flow: column nowrap;
+    height: 9.10rem;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer{
+    background-color:black;
+    transform: translateY(3.12rem);
+}
+
+footer h4 {
+    font-size: smaller;
+    text-align: left;
+    padding: 1.5rem 1rem;
+}
+
+
+
+
+
+
